@@ -13,6 +13,7 @@ export const Index = () => {
     'Perfect Number', 'Reverse Number', 'Anagram',
     'LCM & HCF', 'Binary to Decimal', 'Decimal to Binary'
   ];
+
   const routes = [
     '/palindrome', '/stringpalindrome', '/primenumber',
     '/factorial', '/fibonacci', '/evenodd', '/armstrong',
@@ -35,8 +36,26 @@ export const Index = () => {
   const endIndex = startIndex + itemsPerPage;
 
   return (
-    <Paper elevation={3} style={{ padding: '20px', maxWidth: '700px', margin: '30px auto' }}>
-      <h2 style={{ textAlign: 'center' }}>Simple Programs</h2>
+    <Paper
+      elevation={4}
+      style={{
+        padding: '30px',
+        maxWidth: '800px',
+        margin: '40px auto',
+        borderRadius: '15px',
+        backgroundColor: '#f9f9f9',
+        border: '1px solid #ddd',
+      }}
+    >
+      <h2 style={{
+        textAlign: 'center',
+        color: '#1976d2',
+        marginBottom: '25px',
+        fontWeight: '600'
+      }}>
+        Simple Programs
+      </h2>
+
       <List>
         {titles.slice(startIndex, endIndex).map((item, index) => (
           <ListItem
@@ -44,11 +63,20 @@ export const Index = () => {
             button
             onClick={() => handleClick(routes[startIndex + index])}
             style={{
-              borderBottom: '1px solid #ddd',
-              cursor: 'pointer'
+              borderBottom: '1px solid #eee',
+              borderRadius: '8px',
+              marginBottom: '8px',
+              transition: 'background 0.2s ease-in-out',
+              backgroundColor: '#fff',
+              boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
             }}
+            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f0f8ff'}
+            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#fff'}
           >
-            <ListItemText primary={`${startIndex + index + 1}. ${item}`} />
+            <ListItemText
+              primary={`${startIndex + index + 1}. ${item}`}
+              primaryTypographyProps={{ fontSize: '16px' }}
+            />
           </ListItem>
         ))}
       </List>
