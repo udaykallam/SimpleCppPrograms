@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { FaArrowLeft } from 'react-icons/fa';
+
 
 const CodeTemplate = ({ title, description, code }) => {
   const [copied, setCopied] = useState(false);
@@ -14,7 +15,6 @@ const CodeTemplate = ({ title, description, code }) => {
 
   return (
     <div style={{ padding: '30px', fontFamily: 'Arial, sans-serif' }}>
-      {/* Back Button */}
       <button
         onClick={() => navigate('/')}
         style={{
@@ -27,19 +27,17 @@ const CodeTemplate = ({ title, description, code }) => {
           padding: '6px 12px',
           cursor: 'pointer',
           fontSize: '14px',
-          marginBottom: '20px'
+          marginBottom: '20px',
+          gap: '8px' 
         }}
       >
-        <ArrowBackIcon style={{ marginRight: '6px' }} />
-        Back
+        <FaArrowLeft />
+        <span>Back</span>
       </button>
-
-      {/* Title */}
       <center>
         <h1 style={{ color: '#1976d2' }}>{title}</h1>
       </center>
 
-      {/* Description */}
       <div style={{
         margin: '20px auto',
         maxWidth: '800px',
@@ -54,8 +52,6 @@ const CodeTemplate = ({ title, description, code }) => {
         <p><strong>Description:</strong></p>
         <p>{description}</p>
       </div>
-
-      {/* Code Block */}
       <div style={{
         backgroundColor: '#272822',
         color: '#f8f8f2',
