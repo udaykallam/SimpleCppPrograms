@@ -5,6 +5,7 @@ import Palindrome from './pages/Palindrome'
 import { StringPalindrome } from './pages/StringPalindrome'
 import PrimeNumber from './pages/PrimeNumber'
 import Factorial from './pages/Factorial'
+import Fibonacci from './pages/Fibonacci'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/stringpalindrome' element={<StringPalindrome />} />
         <Route path='/primenumber' element={<PrimeNumber />} />
         <Route path='/factorial' element={<Factorial />} />
+        <Route path="/fibonacci" element={<Fibonacci/>} />
       </Routes>
     </>
   )
