@@ -6,17 +6,20 @@ import { StringPalindrome } from './pages/StringPalindrome'
 import PrimeNumber from './pages/PrimeNumber'
 import Factorial from './pages/Factorial'
 import Fibonacci from './pages/Fibonacci'
+import OddEven from './pages/OddEven'
 
 function App() {
   return (
     <>
       <Routes>
         <Route path='/' element={<Index />} />
+        <Route path='*' element={<h1>404 Page Not Found</h1>} />
         <Route path='/palindrome' element={<Palindrome />} />
         <Route path='/stringpalindrome' element={<StringPalindrome />} />
         <Route path='/primenumber' element={<PrimeNumber />} />
         <Route path='/factorial' element={<Factorial />} />
-        <Route path="/fibonacci" element={<Fibonacci/>} />
+        <Route path="/fibonacci" element={<Fibonacci />} />
+        <Route path="/evenodd" element={<OddEven />} />
       </Routes>
     </>
   )
