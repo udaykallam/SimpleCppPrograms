@@ -7,6 +7,7 @@ import PrimeNumber from './pages/PrimeNumber'
 import Factorial from './pages/Factorial'
 import Fibonacci from './pages/Fibonacci'
 import OddEven from './pages/OddEven'
+import Armstrong from './pages/Armstrong'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/factorial' element={<Factorial />} />
         <Route path="/fibonacci" element={<Fibonacci />} />
         <Route path="/evenodd" element={<OddEven />} />
+        <Route path="/armstrong" element={<Armstrong />} />
       </Routes>
     </>
   )
