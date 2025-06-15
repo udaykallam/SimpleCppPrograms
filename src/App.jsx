@@ -9,6 +9,7 @@ import Fibonacci from './pages/Fibonacci'
 import OddEven from './pages/OddEven'
 import Armstrong from './pages/Armstrong'
 import PerfectNumber from './pages/PerfectNumber'
+import ReverseNumber from './pages/ReverseNumber'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/evenodd" element={<OddEven />} />
         <Route path="/armstrong" element={<Armstrong />} />
         <Route path="/perfect" element={<PerfectNumber />} />
+        <Route path="/reverse" element={<ReverseNumber />} />
       </Routes>
     </>
   )
