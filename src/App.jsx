@@ -10,6 +10,7 @@ import OddEven from './pages/OddEven'
 import Armstrong from './pages/Armstrong'
 import PerfectNumber from './pages/PerfectNumber'
 import ReverseNumber from './pages/ReverseNumber'
+import Anagram from './pages/Anagram'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/armstrong" element={<Armstrong />} />
         <Route path="/perfect" element={<PerfectNumber />} />
         <Route path="/reverse" element={<ReverseNumber />} />
+        <Route path="/anagram" element={<Anagram />} />
       </Routes>
     </>
   )
