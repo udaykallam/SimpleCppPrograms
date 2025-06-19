@@ -13,6 +13,7 @@ import ReverseNumber from './pages/ReverseNumber'
 import Anagram from './pages/Anagram'
 import LCM from './pages/LCM'
 import HCF from './pages/HCF'
+import SumOfMatrixElements from './pages/SumOfMatrixElements'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/anagram" element={<Anagram />} />
         <Route path="/lcm" element={<LCM />} />
         <Route path="/hcf" element={<HCF />} />
+        <Route path="/sumofmatrix" element={<SumOfMatrixElements />} />
       </Routes>
     </>
   )

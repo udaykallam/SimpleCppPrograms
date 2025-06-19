@@ -11,14 +11,14 @@ export const Index = () => {
     'Palindrome', 'String Palindrome', 'Prime Number',
     'Factorial', 'Fibonacci', 'Even or Odd', 'Armstrong Number',
     'Perfect Number', 'Reverse Number', 'Anagram',
-    'LCM', 'HCF', 'Binary to Decimal', 'Decimal to Binary'
+    'LCM', 'HCF', 'Sum of matrix elements', 'Decimal to Binary'
   ];
 
   const routes = [
     '/palindrome', '/stringpalindrome', '/primenumber',
     '/factorial', '/fibonacci', '/evenodd', '/armstrong',
     '/perfect', '/reverse', '/anagram',
-    '/lcm','/hcf', '/bintodec', '/dectobin'
+    '/lcm','/hcf', '/sumofmatrix', '/dectobin'
   ];
 
   const itemsPerPage = 10;
