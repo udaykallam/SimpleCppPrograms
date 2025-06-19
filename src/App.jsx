@@ -14,6 +14,7 @@ import Anagram from './pages/Anagram'
 import LCM from './pages/LCM'
 import HCF from './pages/HCF'
 import SumOfMatrixElements from './pages/SumOfMatrixElements'
+import SumOfDigitsUntilSingleDigit from './pages/SumOfDigitsUntilSingleDigit'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/lcm" element={<LCM />} />
         <Route path="/hcf" element={<HCF />} />
         <Route path="/sumofmatrix" element={<SumOfMatrixElements />} />
+        <Route path="/sumofdigitsuntilsingledigit" element={<SumOfDigitsUntilSingleDigit />} />
       </Routes>
     </>
   )
