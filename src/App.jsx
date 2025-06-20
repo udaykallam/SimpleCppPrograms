@@ -15,6 +15,7 @@ import LCM from './pages/LCM'
 import HCF from './pages/HCF'
 import SumOfMatrixElements from './pages/SumOfMatrixElements'
 import SumOfDigitsUntilSingleDigit from './pages/SumOfDigitsUntilSingleDigit'
+import RightAngledTriangle from './pages/RightAngledTriangle'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/hcf" element={<HCF />} />
         <Route path="/sumofmatrix" element={<SumOfMatrixElements />} />
         <Route path="/sumofdigitsuntilsingledigit" element={<SumOfDigitsUntilSingleDigit />} />
+        <Route path="/rightangledtrianglepattern" element={<RightAngledTriangle />} />
       </Routes>
     </>
   )
