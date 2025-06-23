@@ -17,6 +17,7 @@ import SumOfMatrixElements from './pages/SumOfMatrixElements'
 import SumOfDigitsUntilSingleDigit from './pages/SumOfDigitsUntilSingleDigit'
 import RightAngledTriangle from './pages/RightAngledTriangle'
 import LeftAngledTriangle from './pages/LeftAngledTriangle'
+import SwapRowsInMatrix from './pages/SwapRowsInMatrix'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/sumofdigitsuntilsingledigit" element={<SumOfDigitsUntilSingleDigit />} />
         <Route path="/rightangledtrianglepattern" element={<RightAngledTriangle />} />
         <Route path="/leftangledtrianglepattern" element={<LeftAngledTriangle />} />
+        <Route path="/swaprowsinmatrix" element={<SwapRowsInMatrix />} />
       </Routes>
     </>
   )

@@ -12,13 +12,15 @@ export const Index = () => {
     'Factorial', 'Fibonacci', 'Even or Odd', 'Armstrong Number',
     'Perfect Number', 'Reverse Number', 'Anagram',
     'LCM', 'HCF', 'Sum of matrix elements', 'Sum of digits until single digit','Right - Angled Triangle Pattern', 'Left - Angled Triangle Pattern',
+    'Swap Rows in Matrix'
   ];
 
   const routes = [
     '/palindrome', '/stringpalindrome', '/primenumber',
     '/factorial', '/fibonacci', '/evenodd', '/armstrong',
     '/perfect', '/reverse', '/anagram',
-    '/lcm','/hcf', '/sumofmatrix', 'sumofdigitsuntilsingledigit','rightangledtrianglepattern', 'leftangledtrianglepattern'
+    '/lcm','/hcf', '/sumofmatrix', 'sumofdigitsuntilsingledigit','rightangledtrianglepattern', 'leftangledtrianglepattern',
+    'swaprowsinmatrix'
   ];
 
   const itemsPerPage = 10;
