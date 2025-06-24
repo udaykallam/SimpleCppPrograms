@@ -19,6 +19,7 @@ import RightAngledTriangle from './pages/RightAngledTriangle'
 import LeftAngledTriangle from './pages/LeftAngledTriangle'
 import SwapRowsInMatrix from './pages/SwapRowsInMatrix'
 import MissingNumberInArray from './pages/MissingNumberInArray'
+import NoOfSetBits from './pages/NoOfSetBits'
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/leftangledtrianglepattern" element={<LeftAngledTriangle />} />
         <Route path="/swaprowsinmatrix" element={<SwapRowsInMatrix />} />
         <Route path="/findingmissingnumberinarray" element={<MissingNumberInArray />} />
+        <Route path="/numberofsetbitsinnumber" element={<NoOfSetBits />} />
       </Routes>
     </>
   )
