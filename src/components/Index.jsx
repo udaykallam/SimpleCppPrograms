@@ -12,7 +12,7 @@ export const Index = () => {
     'Factorial', 'Fibonacci', 'Even or Odd', 'Armstrong Number',
     'Perfect Number', 'Reverse Number', 'Anagram',
     'LCM', 'HCF', 'Sum of matrix elements', 'Sum of digits until single digit','Right - Angled Triangle Pattern', 'Left - Angled Triangle Pattern',
-    'Swap Rows in Matrix','Finding missing number in an array','Number of set bits in a number', 
+    'Swap Rows in Matrix','Finding missing number in an array','Number of set bits in a number', 'Number of zero bits in a number'
   ];
 
   const routes = [
@@ -20,7 +20,7 @@ export const Index = () => {
     '/factorial', '/fibonacci', '/evenodd', '/armstrong',
     '/perfect', '/reverse', '/anagram',
     '/lcm','/hcf', '/sumofmatrix', 'sumofdigitsuntilsingledigit','rightangledtrianglepattern', 'leftangledtrianglepattern',
-    'swaprowsinmatrix','findingmissingnumberinarray','numberofsetbitsinnumber'
+    'swaprowsinmatrix','findingmissingnumberinarray','numberofsetbitsinnumber','numberofzerobitsinnumber'
   ];
 
   const itemsPerPage = 10;

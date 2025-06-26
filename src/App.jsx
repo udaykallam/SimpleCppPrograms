@@ -20,6 +20,7 @@ import LeftAngledTriangle from './pages/LeftAngledTriangle'
 import SwapRowsInMatrix from './pages/SwapRowsInMatrix'
 import MissingNumberInArray from './pages/MissingNumberInArray'
 import NoOfSetBits from './pages/NoOfSetBits'
+import NoOfZeroBits from './pages/NoOfZeroBits'
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path="/swaprowsinmatrix" element={<SwapRowsInMatrix />} />
         <Route path="/findingmissingnumberinarray" element={<MissingNumberInArray />} />
         <Route path="/numberofsetbitsinnumber" element={<NoOfSetBits />} />
+        <Route path="/numberofzerobitsinnumber" element={<NoOfZeroBits />} />
       </Routes>
     </>
   )
