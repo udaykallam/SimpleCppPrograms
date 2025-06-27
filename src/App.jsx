@@ -21,13 +21,14 @@ import SwapRowsInMatrix from './pages/SwapRowsInMatrix'
 import MissingNumberInArray from './pages/MissingNumberInArray'
 import NoOfSetBits from './pages/NoOfSetBits'
 import NoOfZeroBits from './pages/NoOfZeroBits'
+import Error from './components/Error'
 
 function App() {
   return (
     <>
       <Routes>
         <Route path='/' element={<Index />} />
-        <Route path='*' element={<h1>404 Page Not Found</h1>} />
+        <Route path='*' element={<Error />} />
         <Route path='/palindrome' element={<Palindrome />} />
         <Route path='/stringpalindrome' element={<StringPalindrome />} />
         <Route path='/primenumber' element={<PrimeNumber />} />
