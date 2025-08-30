@@ -22,6 +22,7 @@ import MissingNumberInArray from './pages/MissingNumberInArray'
 import NoOfSetBits from './pages/NoOfSetBits'
 import NoOfZeroBits from './pages/NoOfZeroBits'
 import Error from './components/Error'
+import SumOfPrimesExcludingLargest from './pages/SumOfPrimesExcludingLargest'
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <Route path="/findingmissingnumberinarray" element={<MissingNumberInArray />} />
         <Route path="/numberofsetbitsinnumber" element={<NoOfSetBits />} />
         <Route path="/numberofzerobitsinnumber" element={<NoOfZeroBits />} />
+        <Route path="/sumofprimesinarrayexcludinglargestprime" element={<SumOfPrimesExcludingLargest />} />
       </Routes>
     </>
   )
