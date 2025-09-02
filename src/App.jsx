@@ -29,7 +29,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Index />} />
-        <Route path='*' element={<Error />} />
+        <Route path='/*' element={<Error />} />
         <Route path='/palindrome' element={<Palindrome />} />
         <Route path='/stringpalindrome' element={<StringPalindrome />} />
         <Route path='/primenumber' element={<PrimeNumber />} />
